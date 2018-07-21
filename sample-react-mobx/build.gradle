@@ -1,0 +1,11 @@
+group 'br.danfma.tdc2018'
+version '0.1.0'
+
+apply plugin: 'kotlin-dce-js'
+
+dependencies {
+  compile 'br.danfma.kodando:kodando-react:0.7.0'
+  compile 'br.danfma.kodando:kodando-react-dom:0.7.0'
+  compile 'br.danfma.kodando:kodando-mobx:1.1.0'
+  compile 'br.danfma.kodando:kodando-mobx-react:1.1.0'
+}

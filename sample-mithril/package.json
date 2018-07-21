@@ -1,0 +1,22 @@
+{
+  "name": "sample-mithril",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "mithril": "^1.1.6"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "html-webpack-plugin": "^3.2.0",
+    "http2-server": "^1.0.0",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "scripts": {
+    "build": "webpack-cli -p",
+    "start": "webpack-dev-server --hot --watch",
+    "serve": "http2-server --http-port 5000 -g -S dist/"
+  }
+}

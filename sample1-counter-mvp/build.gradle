@@ -1,0 +1,4 @@
+group 'br.danfma.tdc2018'
+version '0.1.0'
+
+apply plugin: 'kotlin-dce-js'

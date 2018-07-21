@@ -1,0 +1,8 @@
+rootProject.name = 'tdc-samples'
+
+include 'sample1'
+include 'sample1-counter-mvp'
+include 'sample-react'
+include 'sample-react-mobx'
+include 'sample-mithril'
+
